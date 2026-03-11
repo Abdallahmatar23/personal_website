@@ -61,7 +61,7 @@
                                 </div>
                                 <!-- Phone number input-->
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" name="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                    <input class="form-control" name="phone" type="tel" placeholder="(\\+20|0)1[0-5][0-9]{8}" data-sb-validations="required" />
                                     <label for="phone">Phone number</label>
                                     <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                                 </div>
