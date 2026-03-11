@@ -49,8 +49,7 @@ function saveContact($name, $address, $phone, $message)
 function getContacts()
 {
     $file = __DIR__ . "/../data/contactInfo.json";
-    $dataJson = file_get_contents($file);
-    return file_exists($file) ? json_decode($dataJson, true) : [];
+    return file_exists($file) ? json_decode(file_get_contents($file), true) : [];
 }
 
 
